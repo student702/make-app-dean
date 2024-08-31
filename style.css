@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: -moz-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    height: 80px;
+}
+
+nav>a{
+    color: azure;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav>a:hover{
+    color: brown;
+    transform: scale(1.2);
+    
+}
+
+
+p {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+
+h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    color: black;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    font-size: 28px;
+}
+
+header>p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.order-button{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-button>a{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 88%, rgba(252,176,69,1) 100%);
+    font-family: "Roboto", serif;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.order-button>a:hover{
+    box-shadow: 3px 7px 28px 17px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 7px 28px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 28px 17px rgba(0,0,0,0.75);
+    cursor: pointer;
+
+}
+
+
+.welcome{
+    margin-top: 60px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: -moz-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+}
+
+
+.welcome-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 40px;
+    padding: 80px;
+}
+
+.welcome-wrapper>p{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.how-work{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.how-work>ol{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+
+.how-work>ol>li>p:nth-child(1){
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.how-work>ol>li>p{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+}
+
+
+.about{
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: -moz-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+}
+
+
+.about>ul{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.about>ul>li>p{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    color: azure;
+}
+
+.about>ul>li>p:nth-child(1){
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 88%, rgba(252,176,69,1) 100%);
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.about>ul>li>p:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+
+.about-title{
+    color: azure;
+}
+
+.about-link{
+    color: azure;
+    transition: 0.5s;
+}
+
+.about-link:hover{
+    transform: scale(1.2);
+}
+
+.target{
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.target>ul>li{
+    list-style-type: circle; 
+}
+
+.target>ul{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.target>ul>li>p{
+    font-family: "Roboto", serif;
+    font-size: 20px;
+}
+
+.target>ul>li>p:nth-child(1){
+    font-family: "Roboto", serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.directors{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: -moz-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    padding-top: 40px;
+}
+
+.directors-title{
+    color: white;
+}
+
+.directors-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.directors-item{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+
+.directors-item:hover{
+    transform: scale(1.1);
+}
+
+.directors-item>img{
+    border-radius: 50%;
+    width: 40%;
+}
+
+.directors-item>p:nth-child(2){
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.directors-item>a{
+    color: rgb(231, 175, 175)
+    /* text-decoration: none;
+    font-weight: 500; */
+}
+
+.directors-item>a:hover{
+    color: brown;
+}
+
+
+
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 40px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: -moz-linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(60, 6, 6) 36%);    padding-top: 40px;
+    padding-bottom: 40px;
+    color: azure;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
